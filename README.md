@@ -23,7 +23,6 @@ Program to implement the Decision Tree Regressor Model for Predicting the Salary
 Developed by: Abinav Sankar S
 RegisterNumber: 212222040002
 */
-```
 import pandas as pd
 data=pd.read_csv("/content/Salary.csv")
 
@@ -57,7 +56,7 @@ r2=metrics.r2_score(y_test,y_pred)
 r2
 
 dt.predict([[5,6]])
-
+```
 ## Output:
 ![image](https://github.com/Abinavsankar/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/119103734/1be1ae4d-3f68-4ec0-9005-c4a355d3ac45)
 
